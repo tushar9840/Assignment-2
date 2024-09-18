@@ -24,9 +24,10 @@
     let numbers= [10, 5, 8, 3, 7];
     console.log(findMin(numbers));
 
- /*4) Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing
-  only the even numbers.
-  */
+ //4) Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing only the even numbers.
+
+
+
 
     function filterEvenNumbers(arr) {
         return arr.filter(num => num % 2 === 0);
@@ -34,8 +35,8 @@
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     console.log(filterEvenNumbers(numbers));
 
- //5) Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in
- // descending order.
+ //5) Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
+
 
     function sortArrayDescending(arr) {
         return arr.slice().sort((a, b) => b - a);
@@ -53,8 +54,8 @@
  }
     console.log(lowercaseFirstLetter("Bangladesh"));
 
- //7) Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E,
- // I, O, U) in the string. It should filter vowels from the string.
+ //7) Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string.
+ 
 
     function countVowels(str) {
          const vowels = 'aeiouAEIOU';
